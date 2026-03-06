@@ -35,25 +35,26 @@ https://user-management-api-mace.onrender.com
 
 ---
 
+
 ## Project Structure
 
+```
 backend
 │
 ├── controllers
-│ └── userController.js
+│   └── userController.js
 │
 ├── routes
-│ └── userRoutes.js
+│   └── userRoutes.js
 │
 ├── db
-│ └── db.js
+│   └── db.js
 │
 ├── middleware
-│ └── upload.js
+│   └── upload.js
 │
 └── server.js
-
----
+```
 ## API Endpoints
 
 POST /api/register  
