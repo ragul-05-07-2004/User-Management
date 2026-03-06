@@ -1,7 +1,8 @@
 import pool from "../db/db.js";
 import bcrypt from "bcryptjs";
 
-/* REGISTER */
+ // Register
+
 export const register = async (req, res) => {
 
   try {
@@ -40,7 +41,8 @@ export const register = async (req, res) => {
 };
 
 
-/* LOGIN */
+// Login
+
 export const login = async (req, res) => {
 
   try {
@@ -89,8 +91,7 @@ if (!isMatch) {
 
 };
 
-
-/* GET PROFILE */
+// Profile
 export const getProfile = async (req, res) => {
 
   try {
@@ -121,7 +122,7 @@ export const getProfile = async (req, res) => {
 };
 
 
-/* UPDATE PROFILE */
+// Update profile
 export const updateProfile = async (req, res) => {
 
   try {
@@ -153,7 +154,8 @@ export const updateProfile = async (req, res) => {
 };
 
 
-/* UPDATE IMAGE */
+// Update profile
+
 export const updateImage = async (req, res) => {
 
   try {
